@@ -270,7 +270,7 @@ public class Application {
             case "home" -> createHomeContent();
             case "load" -> createLoadContent();
             //case "transfer" -> createTransferPage();
-            //case "bills" -> createBillsPage();
+            case "loan" -> createloanPage();
             default -> panel;
         };
     }
@@ -405,10 +405,6 @@ public class Application {
 
     //private JPanel createTransferPage(){
     //}
-
-    //private JPanel createBillsPage(){
-    //}
-
 
     private JPanel createLoadContent() {
 
